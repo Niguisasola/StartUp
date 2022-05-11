@@ -1,25 +1,93 @@
 *{
-    padding:0;
-    margin:0;
-    }
-    nav{
-    background-color: #FF7F99;
-    display: flex;
-    align-items: center;
-    place-items: left;
-    justify-content: space-between;
-        color: white;
-        padding: 25px;
-        height: 100px
-    }
-ul { list-style-type: none;
-  }
-  nav a {
-    float: right;
-    margin-right: 2px;
-    padding:  8px;
-    width: 100px;
-  }
-body {font-family:  ‘Jost’,
-    sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ffffff;
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  background-color: #ff7f99;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-brand{
+color: #ffffff;
+font-weight: 800;
+font-size: 30px;
+margin: 0px 20px;
+}
+
+.logo-brand span{
+  color:#fff27e;
+}
+
+.navbar-main{
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.navbar-main a{
+text-decoration: none;
+margin: 10px;
+width: fit-content;
+color: #ffffff;
+}
+
+.main-hero{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.hero-img{
+  width: 50%;
+}
+
+.hero-text{
+  width: 50%;
+}
+
+.hero-text h1{
+  color: #ff7f99;
+  font-weight: 400;
+  font-size: 4em;
+  line-height: 80%;
+}
+
+.hero-text h5{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.section-team{
+  width: 100%;
+  background-color: #ff7f99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*GENERAL STYLES*/
+
+.btn-filled{
+  background-color: rgba(255, 219, 128, 0.24);
+  border-radius: 30px;
+  border: 1px solid #ffd880;
+  padding: 10px 20px;
+}
+
+.btn-primary{
+  background-color: #fff27e;
 }
