@@ -52,12 +52,13 @@ color: #ffffff;
   padding: 30px 20px;
 }
 
+width: 50%;
 .hero-img{
-  width: 50%;
 }
 
 .hero-text{
   width: 50%;
+  padding: 0px 30px;
 }
 
 .hero-text h1{
@@ -69,7 +70,7 @@ color: #ffffff;
 
 .hero-text h5{
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .section-team{
@@ -79,6 +80,31 @@ color: #ffffff;
   justify-content: space-between;
   align-items: center;
 }
+
+.team-member{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.team-member-profile{
+  width: 100%;
+  max-width: 277px;
+  border-radius: 50%;
+}
+
+.team-member h3{
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.team-member h4{
+  color: rgb(75, 75, 75);
+  font-weight: 400;
+}
+
 /*GENERAL STYLES*/
 
 .btn-filled{
@@ -89,5 +115,9 @@ color: #ffffff;
 }
 
 .btn-primary{
-  background-color: #fff27e;
+  background-color: #ffca41;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 20px;
 }
+
